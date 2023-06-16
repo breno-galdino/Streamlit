@@ -28,8 +28,8 @@ if uploaded is not None:
     df = pd.read_csv(file_data, skiprows=5, sep=';')
 
     # Variables
-    old_values_RP = ['L','L\'\'','P','Q','R','R\'','R\'\'','T','V','Y']
-    old_values_RP_S = ['L','L\'\'','P','Q','R','R\'','R\'\'','T','V','Y','S']
+    old_values_RP = ['L\'\'','P','Q','R','R\'','R\'\'','T','V','Y']
+    old_values_RP_S = ['L\'\'','P','Q','R','R\'','R\'\'','T','V','Y','S']
     old_values_P = ['F\'\'\'','O']
 
     # Options to modify the file
